@@ -1,8 +1,10 @@
+import java.util.Arrays;
+
+// @solution-sync:begin
+import java.awt.*;
+import java.lang.reflect.Array;
 import java.util.*;
 
-/**
- *<herf>https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/</herf>
- */
 class Solution {
     public int minimumDifference(int[] nums, int k) {
          Arrays.sort(nums);
